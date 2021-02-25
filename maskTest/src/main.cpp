@@ -14,7 +14,7 @@ const int CHIP_SELECT = 10;
 const int MAX_SD_RETRY = 5;
 
 bool SD_FOUND = false;
-File log;
+File logFile;
 
 void setup() {
   bluetooth.begin(9600);
@@ -30,9 +30,11 @@ void setup() {
     }
   }
 
-  log = SD.open(strcpy("1_","log.txt"), FILE_WRITE); //Will probs change prefix with dynamic number via EEPROM
+  logFile = SD.open(strcpy("1_","log.txt"), FILE_WRITE); 
+  //TODO: Will probs change prefix with dynamic number via EEPROM
+  //TODO: Needs char* and not string
 
-  log.close();
+  logFile.close();
 
 }
 
@@ -42,9 +44,9 @@ void loop() {
     usb.write(bluetooth.read());
   }
 
-  log = SD.open(strcpy("1_","log.txt"), FILE_WRITE);
-  log.println("HELLO THERE");
-  log.close();
+  logFile = SD.open(strcpy("1_","log.txt"), FILE_WRITE);
+  logFile.println("HELLO THERE");
+  logFile.close();
 
   if(usb.available()){
     bluetooth.write(usb.read());
