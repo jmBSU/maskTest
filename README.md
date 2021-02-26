@@ -1,6 +1,10 @@
 # MASK Code
 Initial repo for MASK project
 
+
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Build Status](https://github.com/jmBSU/maskTest/actions/workflows/main.yml/badge.svg)
+
 This code is written for the Arduino Pro Micro and its derivatives. This probably works with the Arduino Leonardo as well due to the similarity of their schematics.
 Anyways we don't expect it to work outside the Pro Micro. [Pro Micro Pinout](https://cdn.sparkfun.com/assets/7/6/c/a/c/ProMicro8MHzv2.pdf)
 
