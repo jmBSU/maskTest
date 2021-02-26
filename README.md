@@ -14,13 +14,13 @@ Libraries include:
 
 ---
 ## Building/ Coding via Platformio (Native)
----
+
 * Should be able to clone and compile
 * Platformio should be able to recognize the project
 
 ---
 ## Building/ Coding in Arduino IDE
----
+
 * Comment out Arduino.h
      * Arduino IDE might not recognize it and fail to compile.
 * Add MAX30105 and MLX90614 libraries to Arduino IDE
@@ -29,7 +29,7 @@ It should be able to compile now.
 
 ---
 ## Contributing
----
+
 This style guide will be used: [Style Guide](https://drive.google.com/file/d/1PkwYtBZ81AC5tD2T1TDWFzXf3yGa9XaX/view?usp=sharing)
 
 * Create a new branch
@@ -39,7 +39,7 @@ This style guide will be used: [Style Guide](https://drive.google.com/file/d/1Pk
 
 ---
 ## References
----
+
 * https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial/arduino-library
 * https://create.arduino.cc/projecthub/SurtrTech/measure-heart-rate-and-spo2-with-max30102-c2b4d8
 * https://learn.adafruit.com/using-melexis-mlx90614-non-contact-sensors/wiring-and-test
