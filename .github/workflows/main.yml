@@ -29,7 +29,7 @@ jobs:
   # You may pin to the exact commit or the version.
         uses: ArminJo/arduino-test-compile@4b0ac82c8621c06c55935a491b42459f9546f0b4
         with:
-          sketch-names: maskTest/src/main.cpp
+          sketch-names: maskTest/maskTest/src/main.cpp
           arduino-board-fqbn: Pro Micro
           platform-default-url: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
           platform-url: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json 
