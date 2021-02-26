@@ -32,7 +32,6 @@ jobs:
           sketch-names: "main.cpp"
           sketch-names-find-start: maskTest/src 
           arduino-board-fqbn: SparkFun:avr:promicro
-          platform-default-url: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
           platform-url: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json 
           required-libraries: SparkFun MAX3010x Pulse and Proximity Sensor Library,Adafruit MLX90614 Library,SD
 
