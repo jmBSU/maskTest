@@ -4,11 +4,13 @@ name: src/main.cpp
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push or pull request events but only for src folder
   push:
-    branches: [ main ]
+    paths:
+      'maskTest/src/**'
   pull_request:
-    branches: [ main ]
+    paths:
+      'maskTest/src/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
