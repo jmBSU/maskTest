@@ -33,8 +33,8 @@ jobs:
         with:
           sketch-names: "main.cpp"
           sketch-names-find-start: maskTest/src 
-          arduino-board-fqbn: Seeeduino:arm:xiao
-          arduino-platform: arduino:avr,SparkFun:avr@1.1.13, arduino:samd
+          arduino-board-fqbn: Seeeduino:samd:xiao
+          arduino-platform: arduino:avr,SparkFun:avr@1.1.13, Seeeduino:samd
           platform-url: https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json 
           required-libraries: SparkFun MAX3010x Pulse and Proximity Sensor Library,Adafruit MLX90614 Library,SD
 
