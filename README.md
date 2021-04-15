@@ -11,13 +11,22 @@ Anyways we don't expect it to work outside the Pro Micro. [Pro Micro Pinout](htt
 Due to memory constraints, this project has migrated to the [Seeeduino Xiao](https://wiki.seeedstudio.com/Seeeduino-XIAO/).
 
 
-
-The code is licensed to cover our included libraries.
+---
+ The code is licensed to cover our included libraries.
 
 Libraries include:
 * Standard Arduino
 * MAX30105 - [Library Link](https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)
 * Adafruit MLX90614 - [Library Link](https://github.com/adafruit/Adafruit-MLX90614-Library)
+* RTCZero - [Library Link](https://github.com/arduino-libraries/RTCZero)
+
+---
+## Companion App
+
+* Compatible with devices on Android 4.3+ 
+* Device must have BLE 4.0
+* https://github.com/jmBSU/maskApp
+
 
 ---
 ## Building/ Coding via Platformio (Native)
@@ -30,7 +39,7 @@ Libraries include:
 
 * Comment out Arduino.h
      * Arduino IDE might not recognize it and fail to compile.
-* Add MAX30105 and MLX90614 libraries to Arduino IDE
+* Add the necessary libraries to Arduino IDE
 
 It should be able to compile now.
 
@@ -54,3 +63,9 @@ This style guide will be used: [Style Guide](https://drive.google.com/file/d/1Pk
 * https://electronics.stackexchange.com/questions/412525/when-i-write-data-to-a-ble-characteristic-ffe1-to-send-data-over-bluetooth-is
 * https://www.arduino.cc/en/Reference/Libraries
 * https://arduino.stackexchange.com/questions/1471/arduino-pro-micro-get-data-out-of-tx-pin
+* https://diyi0t.com/arduino-reduce-power-consumption/
+* https://github.com/rocketscream/Low-Power
+* https://github.com/arduino-libraries/ArduinoLowPower
+
+
+
