@@ -33,9 +33,9 @@ jobs:
         with:
           sketch-names: "main.cpp"
           sketch-names-find-start: maskTest/src 
-          arduino-board-fqbn: SparkFun:avr:promicro
-          arduino-platform: arduino:avr,SparkFun:avr@1.1.13
-          platform-url: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json 
+          arduino-board-fqbn: Seeeduino:samd:seeed_XIAO_m0
+          arduino-platform: arduino:avr,SparkFun:avr@1.1.13, Seeeduino:samd
+          platform-url: https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json 
           required-libraries: SparkFun MAX3010x Pulse and Proximity Sensor Library,Adafruit MLX90614 Library,SD
 
 
